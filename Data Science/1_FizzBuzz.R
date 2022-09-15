@@ -53,12 +53,13 @@ for (i in 1:20)
 
 
 
-aa = 10
 ind = 1
 sum = 0
 
-while (ind <= aa){
-  sum = sum + ind
+num = as.integer(readline(prompt = "Enter a number : "))
+
+while (ind <= num){
+  sum = sum + ind^3
   ind = ind + 1
 }
     
